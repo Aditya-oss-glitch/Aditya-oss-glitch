@@ -1294,6 +1294,31 @@ style="animation-delay:0.40s">
             x = start_x + column * cell_width
             y = start_y + row * cell_height
 
+            # Native SVG tooltip for GitHub contribution boxes.
+            # GitHub can display <title> when hovering the SVG.
+            contribution_date = item.get("date", "")
+            contribution_count = int(item.get("count", 0))
+
+            try:
+                from datetime import datetime
+                tooltip_date = datetime.strptime(
+                    contribution_date,
+                    "%Y-%m-%d",
+                ).strftime("%B %-d, %Y")
+            except Exception:
+                tooltip_date = contribution_date
+
+            contribution_word = (
+                "contribution"
+                if contribution_count == 1
+                else "contributions"
+            )
+
+            tooltip = esc(
+                f"{tooltip_date} — "
+                f"{contribution_count} {contribution_word}"
+            )
+
             # Save the exact moment the scanner reaches this box.
             scan_delays.append(scanner_time)
 
@@ -1348,7 +1373,9 @@ style="animation-delay:0.40s">
                 f'width="10" '
                 f'height="10" '
                 f'rx="2" '
-                f'fill="#101418"/>'
+                f'fill="#101418">'
+                f'<title>{tooltip}</title>'
+                f'</rect>'
             )
 
             # Valid contribution appears when scanner reaches it.
@@ -1365,7 +1392,9 @@ style="animation-delay:0.40s">
                     f'height="10" '
                     f'rx="2" '
                     f'fill="{GRAPH[level]}" '
-                    f'style="animation-delay:{delay:.3f}s"/>'
+                    f'style="animation-delay:{delay:.3f}s">'
+                    f'<title>{tooltip}</title>'
+                    f'</rect>'
                 )
 
                 # Scanner pauses on a valid contribution.

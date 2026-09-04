@@ -2,7 +2,7 @@ name: Update GitHub Dashboard
 
 on:
   schedule:
-    - cron: "0 6 * * *"
+    - cron: "0 * * * *"
   workflow_dispatch:
 
 permissions:
@@ -27,14 +27,12 @@ jobs:
           pip install requests beautifulsoup4
 
       - name: Fetch live data
-        run: |
-          python scripts/fetch_github_data.py
+        run: python scripts/fetch_github_data.py
 
       - name: Render dashboard
-        run: |
-          python scripts/render_dashboard_svg.py
+        run: python scripts/render_dashboard_svg.py
 
-      - name: Commit updated dashboard
+      - name: Commit and push changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
