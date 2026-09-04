@@ -1,6 +1,6 @@
 {
   "username": "Aditya-oss-glitch",
-  "generated_at": "2026-09-04T01:36:03.615470+00:00",
+  "generated_at": "2026-09-04T02:31:46.303711+00:00",
   "profile": {
     "name": "Aditya Rai",
     "bio": "Aspiring full-stack developer passionate about Python, Java, and C++. Building real-world projects like RoadRescue360. Exploring AI/ML, app dev, and open source",
@@ -128,12 +128,12 @@
       {
         "date": "2025-09-21",
         "count": 2,
-        "level": 2
+        "level": 1
       },
       {
         "date": "2025-09-22",
         "count": 6,
-        "level": 4
+        "level": 3
       },
       {
         "date": "2025-09-23",
@@ -1503,7 +1503,7 @@
       {
         "date": "2026-06-23",
         "count": 2,
-        "level": 2
+        "level": 1
       },
       {
         "date": "2026-06-24",
@@ -1573,7 +1573,7 @@
       {
         "date": "2026-07-07",
         "count": 4,
-        "level": 3
+        "level": 2
       },
       {
         "date": "2026-07-08",
@@ -1863,15 +1863,15 @@
       {
         "date": "2026-09-03",
         "count": 2,
-        "level": 2
+        "level": 1
       },
       {
         "date": "2026-09-04",
-        "count": 5,
-        "level": 3
+        "count": 8,
+        "level": 4
       }
     ],
-    "total": 44,
+    "total": 47,
     "current_streak": 2,
     "longest_streak": 3,
     "best_day": 10
@@ -1885,7 +1885,7 @@
     },
     "codeforces": {
       "username": "code1101master",
-      "solved": null,
+      "solved": 3,
       "rating": null,
       "rank": null
     }
