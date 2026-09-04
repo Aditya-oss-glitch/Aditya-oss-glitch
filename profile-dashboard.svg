@@ -1358,7 +1358,7 @@ font-weight="400"
 fill="#3fb950"
 text-anchor="start"
 class="runtime-text"
-style="animation-delay:0.68s">[OK] activity stream :: 1 events</text>
+style="animation-delay:0.68s">[OK] activity stream :: 2 events</text>
 
 
 <text
@@ -1431,7 +1431,7 @@ style="animation-delay:0.27s">
 <text x="842" y="330" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="11px" font-weight="700" fill="#8b949e" text-anchor="start">LEETCODE</text>
 <text x="842" y="372" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="27px" font-weight="700" fill="#58a6ff" text-anchor="start">52</text>
 <text x="842" y="389" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="8px" font-weight="700" fill="#8b949e" text-anchor="start">PROBLEMS SOLVED</text>
-<text x="929" y="372" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="13px" font-weight="700" fill="#58a6ff" text-anchor="start">#2,668,188</text>
+<text x="929" y="372" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="13px" font-weight="700" fill="#58a6ff" text-anchor="start">#2,634,663</text>
 <text x="929" y="389" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="8px" font-weight="700" fill="#8b949e" text-anchor="start">RANK</text>
 </g>
 
@@ -3369,7 +3369,8 @@ style="animation-delay:0.60s">
 
 
 <text x="1225" y="735" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="14px" font-weight="700" fill="#3fb950" text-anchor="start">RECENT ACTIVITY</text>
-<text x="1225" y="770" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10px" font-weight="400" fill="#c9d1d9" text-anchor="start">• CreateEvent: Aditya-oss-glitch/Adi...</text>
+<text x="1225" y="770" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10px" font-weight="400" fill="#c9d1d9" text-anchor="start">• PushEvent: Aditya-oss-glitch/Adi...</text>
+<text x="1225" y="793" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10px" font-weight="400" fill="#c9d1d9" text-anchor="start">• CreateEvent: Aditya-oss-glitch/Adi...</text>
 </g>
 
 <g
