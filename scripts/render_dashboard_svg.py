@@ -1298,9 +1298,49 @@ style="animation-delay:0.40s">
             scan_delays.append(scanner_time)
 
             # ----------------------------------------------------
-            # Every box starts black.
+            # Contribution box + native GitHub-style tooltip.
             # ----------------------------------------------------
 
+            count = int(
+                item.get(
+                    "count",
+                    0,
+                )
+            )
+
+            date_value = item.get(
+                "date",
+                "",
+            )
+
+            try:
+                from datetime import datetime
+
+                date_display = datetime.strptime(
+                    date_value,
+                    "%Y-%m-%d",
+                ).strftime("%B %-d, %Y")
+
+            except ValueError:
+                date_display = date_value
+
+            if count == 1:
+                tooltip = (
+                    f"{count} contribution on "
+                    f"{date_display}"
+                )
+            else:
+                tooltip = (
+                    f"{count} contributions on "
+                    f"{date_display}"
+                )
+
+            svg.append(
+                f'<g class="graph-day">'
+                f'<title>{esc(tooltip)}</title>'
+            )
+
+            # Every box starts black.
             svg.append(
                 f'<rect '
                 f'x="{x}" '
@@ -1311,10 +1351,7 @@ style="animation-delay:0.40s">
                 f'fill="#101418"/>'
             )
 
-            # ----------------------------------------------------
             # Valid contribution appears when scanner reaches it.
-            # ----------------------------------------------------
-
             if level > 0:
 
                 delay = scanner_time
@@ -1336,6 +1373,8 @@ style="animation-delay:0.40s">
 
             # Empty boxes are passed quickly.
             scanner_time += 0.055
+
+            svg.append("</g>")
 
             scanner_index += 1
 

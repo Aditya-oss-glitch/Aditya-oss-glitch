@@ -1,6 +1,6 @@
 {
   "username": "Aditya-oss-glitch",
-  "generated_at": "2026-09-04T00:15:18.125758+00:00",
+  "generated_at": "2026-09-04T01:10:37.135120+00:00",
   "profile": {
     "name": "Aditya Rai",
     "bio": "Aspiring full-stack developer passionate about Python, Java, and C++. Building real-world projects like RoadRescue360. Exploring AI/ML, app dev, and open source",
@@ -10,38 +10,13 @@
     "profile_url": "https://github.com/Aditya-oss-glitch"
   },
   "stars": 0,
-  "languages": [
-    {
-      "name": "HTML",
-      "bytes": 1267505,
-      "percent": 43.0
-    },
-    {
-      "name": "JavaScript",
-      "bytes": 788294,
-      "percent": 26.7
-    },
-    {
-      "name": "TypeScript",
-      "bytes": 582596,
-      "percent": 19.8
-    },
-    {
-      "name": "Java",
-      "bytes": 172635,
-      "percent": 5.9
-    },
-    {
-      "name": "CSS",
-      "bytes": 127972,
-      "percent": 4.3
-    },
-    {
-      "name": "Shell",
-      "bytes": 5747,
-      "percent": 0.2
-    }
-  ],
+  "languages": {
+    "HTML": 3,
+    "TypeScript": 2,
+    "Python": 1,
+    "Java": 1,
+    "JavaScript": 1
+  },
   "activity": [],
   "contributions": {
     "days": [
@@ -137,7 +112,7 @@
       },
       {
         "date": "2025-09-18",
-        "count": 1,
+        "count": 10,
         "level": 4
       },
       {
@@ -147,17 +122,17 @@
       },
       {
         "date": "2025-09-20",
-        "count": 1,
+        "count": 7,
         "level": 4
       },
       {
         "date": "2025-09-21",
-        "count": 1,
+        "count": 2,
         "level": 2
       },
       {
         "date": "2025-09-22",
-        "count": 1,
+        "count": 6,
         "level": 4
       },
       {
@@ -697,7 +672,7 @@
       },
       {
         "date": "2026-01-08",
-        "count": 1,
+        "count": 3,
         "level": 2
       },
       {
@@ -1527,7 +1502,7 @@
       },
       {
         "date": "2026-06-23",
-        "count": 1,
+        "count": 2,
         "level": 2
       },
       {
@@ -1597,7 +1572,7 @@
       },
       {
         "date": "2026-07-07",
-        "count": 1,
+        "count": 4,
         "level": 3
       },
       {
@@ -1887,19 +1862,19 @@
       },
       {
         "date": "2026-09-03",
-        "count": 1,
+        "count": 2,
         "level": 2
       },
       {
         "date": "2026-09-04",
-        "count": 0,
-        "level": 0
+        "count": 2,
+        "level": 2
       }
     ],
-    "total": 39,
-    "current_streak": 0,
+    "total": 41,
+    "current_streak": 2,
     "longest_streak": 3,
-    "best_day": 1
+    "best_day": 10
   },
   "coding": {
     "leetcode": {
@@ -1910,7 +1885,7 @@
     },
     "codeforces": {
       "username": "code1101master",
-      "solved": 3,
+      "solved": null,
       "rating": null,
       "rank": null
     }

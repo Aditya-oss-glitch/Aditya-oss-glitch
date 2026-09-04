@@ -85,157 +85,69 @@ def get_events():
 
 
 def get_contributions():
+    """Fetch GitHub contribution calendar with exact daily counts."""
+    url = f"https://github.com/users/{USERNAME}/contributions"
 
-    url = (
-        f"https://github.com/users/"
-        f"{USERNAME}/contributions"
-    )
-
-    response = session.get(
+    response = requests.get(
         url,
         timeout=30,
+        headers={"User-Agent": "Mozilla/5.0"},
     )
-
     response.raise_for_status()
 
-    soup = BeautifulSoup(
-        response.text,
-        "html.parser",
-    )
+    soup = BeautifulSoup(response.text, "html.parser")
 
-    days = []
+    # GitHub stores the exact daily contribution count in a
+    # <tool-tip> whose `for` attribute matches the day's cell id.
+    tooltips = {}
 
-    # --------------------------------------------------------
-    # Find contribution cells.
-    # GitHub's HTML structure can change, so we don't depend
-    # on aria-label being directly on the <td>.
-    # --------------------------------------------------------
+    for tooltip in soup.find_all("tool-tip"):
+        target = tooltip.get("for")
+        if target:
+            tooltips[target] = tooltip.get_text(" ", strip=True)
 
-    cells = soup.select(
-        "[data-date]"
-    )
+    contributions = []
 
-    for cell in cells:
+    for cell in soup.select("[data-date]"):
+        date = cell.get("data-date")
+        cell_id = cell.get("id")
 
-        date_value = cell.get(
-            "data-date"
-        )
-
-        if not date_value:
+        if not date:
             continue
 
-        # GitHub's contribution intensity.
-        try:
+        tooltip_text = tooltips.get(cell_id, "")
 
-            level = int(
-                cell.get(
-                    "data-level",
-                    "0",
-                )
-                or 0
-            )
-
-        except ValueError:
-
-            level = 0
-
-        count = None
-
-        # ----------------------------------------------------
-        # Try aria-label on the cell.
-        # ----------------------------------------------------
-
-        labels = []
-
-        if cell.get("aria-label"):
-            labels.append(
-                cell.get("aria-label")
-            )
-
-        # ----------------------------------------------------
-        # Try aria-label/title on children.
-        # ----------------------------------------------------
-
-        for child in cell.find_all():
-
-            if child.get("aria-label"):
-                labels.append(
-                    child.get("aria-label")
-                )
-
-            if child.get("title"):
-                labels.append(
-                    child.get("title")
-                )
-
-        # ----------------------------------------------------
-        # Search all discovered labels.
-        # ----------------------------------------------------
-
-        for label in labels:
-
-            match = re.search(
-                r"(\d+)\s+contribution",
-                label,
-                re.IGNORECASE,
-            )
-
-            if match:
-
-                count = int(
-                    match.group(1)
-                )
-
-                break
-
-        # ----------------------------------------------------
-        # If GitHub doesn't expose the exact number in the
-        # cell, use the level to identify activity.
-        # ----------------------------------------------------
-
-        if count is None:
-
-            count = 1 if level > 0 else 0
-
-        days.append(
-            {
-                "date": date_value,
-                "count": count,
-                "level": level,
-            }
+        # Exact count, e.g.:
+        # "2 contributions on September 3rd."
+        # "1 contribution on June 30th."
+        # "No contributions on ..."
+        match = re.search(
+            r"(\d[\d,]*)\s+contributions?",
+            tooltip_text,
+            re.IGNORECASE,
         )
 
-    # --------------------------------------------------------
-    # Remove duplicate dates.
-    # --------------------------------------------------------
+        if match:
+            count = int(match.group(1).replace(",", ""))
+        else:
+            count = 0
 
-    unique = {}
+        level = int(cell.get("data-level", 0) or 0)
 
-    for day in days:
+        contributions.append({
+            "date": date,
+            "count": count,
+            "level": level,
+        })
 
-        unique[
-            day["date"]
-        ] = day
+    # Keep the same 370-day window used by the dashboard.
+    contributions.sort(key=lambda x: x["date"])
 
-    days = list(
-        unique.values()
-    )
+    if len(contributions) > 370:
+        contributions = contributions[-370:]
 
-    days.sort(
-        key=lambda item: item["date"]
-    )
-
-    # --------------------------------------------------------
-    # Get the exact total shown by GitHub.
-    #
-    # Example:
-    # "39 contributions in the last year"
-    # --------------------------------------------------------
-
-    page_text = soup.get_text(
-        " ",
-        strip=True,
-    )
+    # GitHub's page also exposes the overall contribution total.
+    page_text = soup.get_text(" ", strip=True)
 
     total_match = re.search(
         r"([\d,]+)\s+contributions?\s+in\s+the\s+last\s+year",
@@ -243,136 +155,79 @@ def get_contributions():
         re.IGNORECASE,
     )
 
-    if total_match:
+    exact_total = (
+        int(total_match.group(1).replace(",", ""))
+        if total_match
+        else sum(day["count"] for day in contributions)
+    )
 
-        exact_total = int(
-            total_match.group(1).replace(
-                ",",
-                "",
-            )
-        )
+    return contributions, exact_total
 
-    else:
 
-        exact_total = sum(
-            day["count"]
-            for day in days
-        )
+def calculate_streaks(contributions):
+    """Calculate current streak, longest streak, and best single-day count."""
+    if not contributions:
+        return 0, 0, 0
 
-    # --------------------------------------------------------
-    # Store the exact total separately.
-    # --------------------------------------------------------
+    days = sorted(
+        contributions,
+        key=lambda x: x["date"]
+    )
 
-    for day in days:
-
-        day.setdefault(
-            "count",
-            0,
-        )
-
-    return days, exact_total
-
-def calculate_streaks(days):
-
-    active_dates = {
-        item["date"]
-        for item in days
-        if item["count"] > 0
-    }
-
-    current = 0
-
-    cursor = date.today()
-
-    while cursor.isoformat() in active_dates:
-
-        current += 1
-
-        cursor -= timedelta(
-            days=1
-        )
-
-    longest = 0
-
-    running = 0
-
+    longest_streak = 0
+    current_streak = 0
+    running_streak = 0
     best_day = 0
 
-    for item in days:
+    previous_date = None
 
-        if item["count"] > 0:
+    for day in days:
+        count = int(day.get("count", 0))
+        best_day = max(best_day, count)
 
-            running += 1
+        if count > 0:
+            if (
+                previous_date is not None
+                and (
+                    __import__("datetime").date.fromisoformat(day["date"])
+                    - __import__("datetime").date.fromisoformat(previous_date)
+                ).days == 1
+            ):
+                running_streak += 1
+            else:
+                running_streak = 1
 
-            longest = max(
-                longest,
-                running,
-            )
-
+            longest_streak = max(longest_streak, running_streak)
         else:
+            running_streak = 0
 
-            running = 0
+        previous_date = day["date"]
 
-        best_day = max(
-            best_day,
-            item["count"],
-        )
+    # Current streak: count backwards from the most recent day.
+    for day in reversed(days):
+        if int(day.get("count", 0)) > 0:
+            current_streak += 1
+        else:
+            break
 
-    return current, longest, best_day
+    return current_streak, longest_streak, best_day
+
 
 
 def calculate_languages(repositories):
-
-    totals = Counter()
+    """Count languages used across owned repositories."""
+    counter = Counter()
 
     for repository in repositories:
-
         if repository.get("fork"):
             continue
 
-        try:
+        language = repository.get("language")
 
-            languages = github_get(
-                repository["languages_url"]
-            )
+        if language:
+            counter[language] += 1
 
-            totals.update(
-                languages
-            )
-
-        except Exception:
-
-            continue
-
-    total_bytes = sum(
-        totals.values()
-    )
-
-    if total_bytes == 0:
-        return []
-
-    languages = []
-
-    for name, value in totals.most_common(6):
-
-        percentage = (
-            value
-            / total_bytes
-            * 100
-        )
-
-        languages.append(
-            {
-                "name": name,
-                "bytes": value,
-                "percent": round(
-                    percentage,
-                    1,
-                ),
-            }
-        )
-
-    return languages
+    return dict(counter.most_common())
 
 def fetch_coding_profiles():
     result = {
