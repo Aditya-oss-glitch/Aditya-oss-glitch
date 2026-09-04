@@ -700,7 +700,7 @@ style="animation-delay:0.05s">
         text(
             48,
             105,
-            "avi@github:~$ ./identity.sh",
+            "./identity.sh:~$ ",
             16,
             BLUE,
             "700",
@@ -900,26 +900,11 @@ style="animation-delay:0.12s">
         text(
             635,
             112,
-            "avi@github:~$ whoami",
+            "whoami:~$ ",
             24,
             BLUE,
             "700",
         )
-    )
-
-    # cursor
-
-    svg.append(
-        f'''
-<rect
-class="cursor"
-x="858"
-y="91"
-width="12"
-height="25"
-rx="1"
-fill="{TEXT}"/>
-'''
     )
 
     profile_rows = [

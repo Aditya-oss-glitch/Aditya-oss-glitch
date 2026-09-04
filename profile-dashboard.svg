@@ -459,7 +459,7 @@ style="animation-delay:0.05s">
 <rect x="25" y="70" width="560" height="820" rx="9" ry="9" fill="#010409" stroke="#30363d" stroke-width="1"/>
 
 
-<text x="48" y="105" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="16px" font-weight="700" fill="#58a6ff" text-anchor="start">avi@github:~$ ./identity.sh</text>
+<text x="48" y="105" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="16px" font-weight="700" fill="#58a6ff" text-anchor="start">./identity.sh:~$ </text>
 
     <svg
         x="45"
@@ -1387,17 +1387,7 @@ style="animation-delay:0.12s">
 <rect x="610" y="70" width="865" height="210" rx="9" ry="9" fill="#010409" stroke="#30363d" stroke-width="1"/>
 
 
-<text x="635" y="112" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="24px" font-weight="700" fill="#58a6ff" text-anchor="start">avi@github:~$ whoami</text>
-
-<rect
-class="cursor"
-x="858"
-y="91"
-width="12"
-height="25"
-rx="1"
-fill="#c9d1d9"/>
-
+<text x="635" y="112" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="24px" font-weight="700" fill="#58a6ff" text-anchor="start">whoami:~$ </text>
 <text x="635" y="153" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="13px" font-weight="700" fill="#3fb950" text-anchor="start">USER</text>
 <text x="755" y="153" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="15px" font-weight="400" fill="#c9d1d9" text-anchor="start">Aditya Rai</text>
 <text x="635" y="184" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="13px" font-weight="700" fill="#d29922" text-anchor="start">ROLE</text>
