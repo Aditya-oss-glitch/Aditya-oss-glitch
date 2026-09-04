@@ -1,0 +1,23 @@
+{
+  "languages": [
+    "Python",
+    "Java",
+    "C++",
+    "JavaScript"
+  ],
+  "frontend": [
+    "HTML",
+    "CSS",
+    "React"
+  ],
+  "backend": [
+    "Node.js"
+  ],
+  "ai_ml": [
+    "AI/ML"
+  ],
+  "tools": [
+    "Git",
+    "GitHub"
+  ]
+}

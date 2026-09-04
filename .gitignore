@@ -1,0 +1,22 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store
+
+# Local source images
+source-photo.jpeg
+source-photo.jpg
+source-photo.png
+source-prepped.png
+
+# Local backups
+backups/
+
+# Backup / temporary Python files
+*.bak
+*.before-terminal
+*.repair
+*.runtime-backup

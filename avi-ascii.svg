@@ -1,0 +1,784 @@
+<svg
+xmlns="http://www.w3.org/2000/svg"
+width="770"
+height="806"
+viewBox="0 0 770 806"
+role="img"
+aria-label="Animated ASCII portrait">
+
+<style>
+.ascii {
+    font-family:
+        Menlo,
+        Monaco,
+        Consolas,
+        "Courier New",
+        monospace;
+
+    font-size: 12px;
+    font-weight: 400;
+    fill: #8a8a8a;
+}
+
+.row {
+    opacity: 0;
+}
+
+@keyframes rowReveal {
+
+    0% {
+        opacity: 0;
+        transform: translateX(-10px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+</style>
+
+<text
+x="0"
+y="13"
+class="ascii row"
+style="animation:
+rowReveal
+0.55s
+ease-out
+0.000s
+forwards;"
+xml:space="preserve">                                                                                                              </text>
+
+<text
+x="0"
+y="26"
+class="ascii row"
+style="animation:
+rowReveal
+0.55s
+ease-out
+0.035s
+forwards;"
+xml:space="preserve">                                                ....                                                          </text>
+
+<text
+x="0"
+y="39"
+class="ascii row"
+style="animation:
+rowReveal
+0.55s
+ease-out
+0.070s
+forwards;"
+xml:space="preserve">                                             ```==csc=:..                                                     </text>
+
+<text
+x="0"
+y="52"
+class="ascii row"
+style="animation:
+rowReveal
+0.55s
+ease-out
+0.105s
+forwards;"
+xml:space="preserve">                                     `:`--:-++=++#%sc@#*ss*-`                                                 </text>
+
+<text
+x="0"
+y="65"
+class="ascii row"
+style="animation:
+rowReveal
+0.55s
+ease-out
+0.140s
+forwards;"
+xml:space="preserve">                                 .`::cc-*cs%s#@%@@%@%%@@@@@%c+==``..                                          </text>
+
+<text
+x="0"
+y="78"
+class="ascii row"
+style="animation:
+rowReveal
+0.55s
+ease-out
+0.175s
+forwards;"
+xml:space="preserve">                                :=:=#@%%@@@%##@@@@%s#@@@%@@#%@@ss+==.                                         </text>
+
+<text
+x="0"
+y="91"
+class="ascii row"
+style="animation:
+rowReveal
+0.55s
+ease-out
+0.210s
+forwards;"
+xml:space="preserve">                                cs#@@@@@%s**##%@@@@@@@@@@@@@#s#cs%%s=                                         </text>
+
+<text
+x="0"
+y="104"
+class="ascii row"
+style="animation:
+rowReveal
+0.55s
+ease-out
+0.245s
+forwards;"
+xml:space="preserve">                              `+#@@@@@@@@s=cc%#s*%@@#@@%##@%%#c@%%%%@+..                                      </text>
+
+<text
+x="0"
+y="117"
+class="ascii row"
+style="animation:
+rowReveal
+0.55s
+ease-out
+0.280s
+forwards;"
+xml:space="preserve">                            `-*s@@@@@%@@%@sc#%s=s@@@%%%%@#%@*#@%@%#s%s+`                                      </text>
+
+<text
+x="0"
+y="130"
+class="ascii row"
+style="animation:
+rowReveal
+0.55s
+ease-out
+0.315s
+forwards;"
+xml:space="preserve">                           .s+*@@@@@@@@@@@s#@c-c%@@@@@@@@@@@cc*ss%%#s%#-                                      </text>
+
+<text
+x="0"
+y="143"
+class="ascii row"
+style="animation:
+rowReveal
+0.55s
+ease-out
+0.350s
+forwards;"
+xml:space="preserve">                           .*+c%@@@@@@@@@@@@%c=s@%@@@@@#*c#%%@#%@%s@#%#*`                                     </text>
+
+<text
+x="0"
+y="156"
+class="ascii row"
+style="animation:
+rowReveal
+0.55s
+ease-out
+0.385s
+forwards;"
+xml:space="preserve">                          .`=s@@@@%s@@@@@@@*s@%@@ss##s%c*#%#%@%#%@#%%%@*`                                     </text>
+
+<text
+x="0"
+y="169"
+class="ascii row"
+style="animation:
+rowReveal
+0.55s
+ease-out
+0.420s
+forwards;"
+xml:space="preserve">                         .:s#%@@@@@@@@@%@@@#%@@@%=c+c%@%@%s%@@%s%@@@@@@c                                      </text>
+
+<text
+x="0"
+y="182"
+class="ascii row"
+style="animation:
+rowReveal
+0.55s
+ease-out
+0.455s
+forwards;"
+xml:space="preserve">                         .*%@@@@@@@@@@@@@%%@#*s#@##scc#%@s=c##@@#%%@@@#:                                      </text>
+
+<text
+x="0"
+y="195"
+class="ascii row"
+style="animation:
+rowReveal
+0.55s
+ease-out
+0.490s
+forwards;"
+xml:space="preserve">                          :*%@@@@@@@@@@@%#c=:-+*#@#@s---=cc+c##s%@@@@@s                                       </text>
+
+<text
+x="0"
+y="208"
+class="ascii row"
+style="animation:
+rowReveal
+0.55s
+ease-out
+0.525s
+forwards;"
+xml:space="preserve">                           -#@@@@@@%%@%ssc=:.  ..`-::===++===*+=s@%@@@`                                       </text>
+
+<text
+x="0"
+y="221"
+class="ascii row"
+style="animation:
+rowReveal
+0.55s
+ease-out
+0.560s
+forwards;"
+xml:space="preserve">                            =#%@@@@@@@%@@#s#s+:`.  .`:-*s+:----.`s%%%*                                        </text>
+
+<text
+x="0"
+y="234"
+class="ascii row"
+style="animation:
+rowReveal
+0.55s
+ease-out
+0.595s
+forwards;"
+xml:space="preserve">                             =%%@@@@@@@#cc=-:=###+    -**c=-+:...-s-*`                                        </text>
+
+<text
+x="0"
+y="247"
+class="ascii row"
+style="animation:
+rowReveal
+0.55s
+ease-out
+0.630s
+forwards;"
+xml:space="preserve">                             .:`c@@@@@s*s#*+`.c%%+.   `-=-`.   ```=--                                         </text>
+
+<text
+x="0"
+y="260"
+class="ascii row"
+style="animation:
+rowReveal
+0.55s
+ease-out
+0.665s
+forwards;"
+xml:space="preserve">                                 c@%@scccs+-:=*ssc:     ...    .`:-*-                                         </text>
+
+<text
+x="0"
+y="273"
+class="ascii row"
+style="animation:
+rowReveal
+0.55s
+ease-out
+0.700s
+forwards;"
+xml:space="preserve">                                  *%%+**:::::-+s#c:            .`:==:                                         </text>
+
+<text
+x="0"
+y="286"
+class="ascii row"
+style="animation:
+rowReveal
+0.55s
+ease-out
+0.735s
+forwards;"
+xml:space="preserve">                                   #@**c=-:``-*%#*:     ..   .`::--:`                                         </text>
+
+<text
+x="0"
+y="299"
+class="ascii row"
+style="animation:
+rowReveal
+0.55s
+ease-out
+0.770s
+forwards;"
+xml:space="preserve">                                   -%%*sc=---=c%s%s-`=:    .``:-:=:.                                          </text>
+
+<text
+x="0"
+y="312"
+class="ascii row"
+style="animation:
+rowReveal
+0.55s
+ease-out
+0.805s
+forwards;"
+xml:space="preserve">                                    *@#%%sc*++*#@@c-:.:..  ``:::--                                            </text>
+
+<text
+x="0"
+y="325"
+class="ascii row"
+style="animation:
+rowReveal
+0.55s
+ease-out
+0.840s
+forwards;"
+xml:space="preserve">                                     ::#@%##s#%%@%s+===-::::---:-:                                            </text>
+
+<text
+x="0"
+y="338"
+class="ascii row"
+style="animation:
+rowReveal
+0.55s
+ease-out
+0.875s
+forwards;"
+xml:space="preserve">                                       :@%#s#@%%@%s+==--=*+--=--=                                             </text>
+
+<text
+x="0"
+y="351"
+class="ascii row"
+style="animation:
+rowReveal
+0.55s
+ease-out
+0.910s
+forwards;"
+xml:space="preserve">                                        =%%##%%@@@s=++-===++==-+=                                             </text>
+
+<text
+x="0"
+y="364"
+class="ascii row"
+style="animation:
+rowReveal
+0.55s
+ease-out
+0.945s
+forwards;"
+xml:space="preserve">                                        `s@@%%%%%##ss*===-:`-++--.                                            </text>
+
+<text
+x="0"
+y="377"
+class="ascii row"
+style="animation:
+rowReveal
+0.55s
+ease-out
+0.980s
+forwards;"
+xml:space="preserve">                                       *s+@@@@@@%%s*+-.  .`=*=::=`-.                                          </text>
+
+<text
+x="0"
+y="390"
+class="ascii row"
+style="animation:
+rowReveal
+0.55s
+ease-out
+1.015s
+forwards;"
+xml:space="preserve">                                     .s@:=@@@@@@@@@#*#s*++**-`::=-`s=                                         </text>
+
+<text
+x="0"
+y="403"
+class="ascii row"
+style="animation:
+rowReveal
+0.55s
+ease-out
+1.050s
+forwards;"
+xml:space="preserve">                                   .+@@@-:%@%%%@%%@%%@%*:::-``-`=s `%#*`                                      </text>
+
+<text
+x="0"
+y="416"
+class="ascii row"
+style="animation:
+rowReveal
+0.55s
+ease-out
+1.085s
+forwards;"
+xml:space="preserve">                                .-c%@@@@+`+@sccs###%%c-``::``-:.#s  c%%@#c=:.                                 </text>
+
+<text
+x="0"
+y="429"
+class="ascii row"
+style="animation:
+rowReveal
+0.55s
+ease-out
+1.120s
+forwards;"
+xml:space="preserve">                             `+#@@@@@@@@s:.+%****ccs#s+=-`.`:: +@c  -@c%@@@@@#*=`                             </text>
+
+<text
+x="0"
+y="442"
+class="ascii row"
+style="animation:
+rowReveal
+0.55s
+ease-out
+1.155s
+forwards;"
+xml:space="preserve">                          :*#@@@@@@@@@@@@=` =*==++*ssc*=::`:..*@@c  .%#c####%@@@@%s*-`                        </text>
+
+<text
+x="0"
+y="455"
+class="ascii row"
+style="animation:
+rowReveal
+0.55s
+ease-out
+1.190s
+forwards;"
+xml:space="preserve">                      `-*#@@@@@@@@@@@@@@@s-. :=--=-=*c*=---``c@@@+   s@csss##s#%@@@@@@%s*=:`                  </text>
+
+<text
+x="0"
+y="468"
+class="ascii row"
+style="animation:
+rowReveal
+0.55s
+ease-out
+1.225s
+forwards;"
+xml:space="preserve">                 .:+c#@@@@@@@@@@@@@@@@@@@@+:  :-=+-`:=++=+--#@@@@-   +@scccccssss#%#%@@@@@@@@#*=.             </text>
+
+<text
+x="0"
+y="481"
+class="ascii row"
+style="animation:
+rowReveal
+0.55s
+ease-out
+1.260s
+forwards;"
+xml:space="preserve">              :*#%@@@@@@@@@@@@@@@@@@@@@@@@s` . .:==-``-=+++#@@@@s:   :@%sccccccsscc%%%%##%%%@@@@#.            </text>
+
+<text
+x="0"
+y="494"
+class="ascii row"
+style="animation:
+rowReveal
+0.55s
+ease-out
+1.295s
+forwards;"
+xml:space="preserve">           +s%@@@@@@@@@@@@@@@@@@@@@@@@@@@@s...`.``=-. `-*cs%@@@@-..  .%@#ccsc*cccs%%#sscssss#%#@@c            </text>
+
+<text
+x="0"
+y="507"
+class="ascii row"
+style="animation:
+rowReveal
+0.55s
+ease-out
+1.330s
+forwards;"
+xml:space="preserve">          -@@@@@@@@@@%##@#scs##%%%@@@@@@@@@+-:.  .-:  `+sss%@@@-  .`  c@%cccsccc#%sccssc#cccsss@%%`           </text>
+
+<text
+x="0"
+y="520"
+class="ascii row"
+style="animation:
+rowReveal
+0.55s
+ease-out
+1.365s
+forwards;"
+xml:space="preserve">          +@%%@%%%#ssccc@s*csss#%s#%@@@@@@#s+=:` ``..-*cs#%@@@s    .: -@@scsccc#sccsscscssccss#@#%*           </text>
+
+<text
+x="0"
+y="533"
+class="ascii row"
+style="animation:
+rowReveal
+0.55s
+ease-out
+1.400s
+forwards;"
+xml:space="preserve">          #@%s####ssscc*s@ccc####s###%@@@@#s*=-=-`  .+cc##%@@@@=.     :@@%ssssssscs#sscs#sssss#@#%@-          </text>
+
+<text
+x="0"
+y="546"
+class="ascii row"
+style="animation:
+rowReveal
+0.55s
+ease-out
+1.435s
+forwards;"
+xml:space="preserve">         .@@@ss##scccc***%%cccsss#ss#%%@@@@s*-=:--`...-*sss#%@@@=:    `#@@sss##ssssssscs##ssss#@#%@%.         </text>
+
+<text
+x="0"
+y="559"
+class="ascii row"
+style="animation:
+rowReveal
+0.55s
+ease-out
+1.470s
+forwards;"
+xml:space="preserve">         =@@@%ccsscscccc*c@#*cccsscss#%@@@@#c::-`-=:.. :=*ss#%@c`-.   .s@@#ss##ssssssscs#sssss%@###%*         </text>
+
+<text
+x="0"
+y="572"
+class="ascii row"
+style="animation:
+rowReveal
+0.55s
+ease-out
+1.505s
+forwards;"
+xml:space="preserve">        .@@@@@sccccsssccc*#@sccsssccss#@@@@%s* .`::-`..`:=cs#%%--`    .c@@#sss##sssccscs##sss#@%s###%`        </text>
+
+<text
+x="0"
+y="585"
+class="ascii row"
+style="animation:
+rowReveal
+0.55s
+ease-out
+1.540s
+forwards;"
+xml:space="preserve">        =@@@@@#cssc##sc*cc*%%cccccccsss%@@@@#c:  .::-`.`:*s##@+:`     `*@@%ssss##scccccss#ss##@%####%+        </text>
+
+<text
+x="0"
+y="598"
+class="ascii row"
+style="animation:
+rowReveal
+0.55s
+ease-out
+1.575s
+forwards;"
+xml:space="preserve">        s@@@@@@scss#@#cccc**@%**cccccc#%@@@@%c+.   `::.`+cs#@%-.      `+@@@#s#####sccccscsss#%@#s#####.       </text>
+
+<text
+x="0"
+y="611"
+class="ascii row"
+style="animation:
+rowReveal
+0.55s
+ease-out
+1.610s
+forwards;"
+xml:space="preserve">       .@@@@@@@%*ss%@%#scss+c@s*c*ccccs#%@@@@sc-    .`:+*s#%@*   .    `=%@@#ss#s##sccccscc#s#@@ssss##%-       </text>
+
+<text
+x="0"
+y="624"
+class="ascii row"
+style="animation:
+rowReveal
+0.55s
+ease-out
+1.645s
+forwards;"
+xml:space="preserve">       *@@@@@@@@scs%@@%#sssc*#@c*cccccss%@@@@#c+`     `+*s%@@`   `    .=s@@%ssss##ssccc***ss#@%#s###s%s       </text>
+
+<text
+x="0"
+y="637"
+class="ascii row"
+style="animation:
+rowReveal
+0.55s
+ease-out
+1.680s
+forwards;"
+xml:space="preserve">      .@@@@@@@@@@cs%@@@%%#ssc*#@c*cccsss#@@@@%sc-      =cs%@s    :    .-c@@%ss#sssscccc**cs#%@%##%%#s#@:      </text>
+
+<text
+x="0"
+y="650"
+class="ascii row"
+style="animation:
+rowReveal
+0.55s
+ease-out
+1.715s
+forwards;"
+xml:space="preserve">      *@@@@@@@@@@%c@@@@@@%#s#c*%@c*ccsscs%@@@@#c+.     -c#@@*    :     -*@@@#sssccscccc*c###@@@##%@%ss%*      </text>
+
+<text
+x="0"
+y="663"
+class="ascii row"
+style="animation:
+rowReveal
+0.55s
+ease-out
+1.750s
+forwards;"
+xml:space="preserve">     .%@@@@@@@@%%%c%@@@@@@%%%s**@@cc*cccs#%@@@%sc:     :c#@@*    `.    -*@@@#ssscccc*ccs#sc@@@@##%@@#s#s      </text>
+
+<text
+x="0"
+y="676"
+class="ascii row"
+style="animation:
+rowReveal
+0.55s
+ease-out
+1.785s
+forwards;"
+xml:space="preserve">     -@@@@@@@@@%%#sc@@@@@@@@@#scs@%sscsscs#%@@@#s+     .c%@@c    ..    :+%@@#ssssssc*ssscc#@@@@##%@@%s##`     </text>
+
+<text
+x="0"
+y="689"
+class="ascii row"
+style="animation:
+rowReveal
+0.55s
+ease-out
+1.820s
+forwards;"
+xml:space="preserve">     c@@@@@@@@@%#ss#@@@@@@@@@@#sc#@@#sscs##%@@@%#s`  .  *%@@c          :=%@@%ccsssscsssscc%@@@@##%@@#s#%=     </text>
+
+<text
+x="0"
+y="702"
+class="ascii row"
+style="animation:
+rowReveal
+0.55s
+ease-out
+1.855s
+forwards;"
+xml:space="preserve">    .@@@@@@@@@@%%%#@@@@@@@@@@@%#sc#@%#scss#%@@@@#s= ..  +%@@s         .:=#@@@scccssccssscc@@@@%#%%@@#s#%*     </text>
+
+<text
+x="0"
+y="715"
+class="ascii row"
+style="animation:
+rowReveal
+0.55s
+ease-out
+1.890s
+forwards;"
+xml:space="preserve">    =@@@@@@@@@@@@%#@@@@@@@@@@@@@#cc%@@scss##%@@@%sc`.   -%@@s         .:=s@@@#ccccscsscc*#@@@@%#%@@%#s#%s     </text>
+
+<text
+x="0"
+y="728"
+class="ascii row"
+style="animation:
+rowReveal
+0.55s
+ease-out
+1.925s
+forwards;"
+xml:space="preserve">    c@@@@@@@@@@@@%s@@@@@@@@@@@@@%ssc%@@#ss###@@@@#s= .  :#@@#         .:=s@@@%sccsc*#sc**%@@@@%%@@@%#s#%%.    </text>
+
+<text
+x="0"
+y="741"
+class="ascii row"
+style="animation:
+rowReveal
+0.55s
+ease-out
+1.960s
+forwards;"
+xml:space="preserve">   .@@@@@@@@@@@@%s@@@@@@@@@@@@@@@%ssc%@@#cs##%@@@%sc` . :#@@%         `:=c@@@%sccc*c#sc*s@@@@@%@@@@%#ss#@=    </text>
+
+<text
+x="0"
+y="754"
+class="ascii row"
+style="animation:
+rowReveal
+0.55s
+ease-out
+1.995s
+forwards;"
+xml:space="preserve">   =@@@@@@@@@@@%s%@@@@@@@@@@@@@@@@%#sc#@@#ss#%@@@@#s- . :#@@#        .`:=c@@@%#scccs##c*#@@@@%%@@@%#%#sc%s    </text>
+
+<text
+x="0"
+y="767"
+class="ascii row"
+style="animation:
+rowReveal
+0.55s
+ease-out
+2.030s
+forwards;"
+xml:space="preserve">   s@@@@@@@@@@%%@@@@@@@@@@@@@@@@@@@%##s#@@%s#%@@@@%s*.  :s@@#        ``:+c%@@@sssccss#cc%@@@@%@@@@#s#%##s#.   </text>
+
+<text
+x="0"
+y="780"
+class="ascii row"
+style="animation:
+rowReveal
+0.55s
+ease-out
+2.065s
+forwards;"
+xml:space="preserve">  .%@@@@@@@@@%#%%@@@@@@@@@@@@@@@%@@@%%##%@@@#s%@@@@%#- `:s@@s       .``-+c%@@@scsscssssc@@@@@@@@@@%#s#@@@%`   </text>
+
+<text
+x="0"
+y="793"
+class="ascii row"
+style="animation:
+rowReveal
+0.55s
+ease-out
+2.100s
+forwards;"
+xml:space="preserve">  :@@@@@@@@@@%@@@#@@@@@@@@@@@@@@@@@@@@@@%%@@@@%%@@@@%c`:-s@@c      ..`-*s@@@@@%s##s###ss@@@@@@@@@@@@###%@@c   </text>
+
+<text
+x="0"
+y="806"
+class="ascii row"
+style="animation:
+rowReveal
+0.55s
+ease-out
+2.135s
+forwards;"
+xml:space="preserve">  `ssssssssccsss**sss####ssssssssssssssssccss#scs###ss-:-c%%+     ...-+*cssss#c*c*******sssssssssssssccccss   </text>
+</svg>
