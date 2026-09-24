@@ -1414,9 +1414,9 @@ style="animation-delay:0.20s">
 <text class="contribution-counter" x="628" y="372" fill="#3fb950" style="animation-delay:11.610s;animation-duration:4.835s">16</text>
 <text class="contribution-counter" x="628" y="372" fill="#3fb950" style="animation-delay:16.455s;animation-duration:1.755s">19</text>
 <text class="contribution-counter" x="628" y="372" fill="#3fb950" style="animation-delay:18.220s;animation-duration:0.985s">20</text>
-<text class="contribution-counter" x="628" y="372" fill="#3fb950" style="animation-delay:19.215s;animation-duration:3.295s">22</text>
-<text class="contribution-counter" x="628" y="372" fill="#3fb950" style="animation-delay:22.520s;animation-duration:0.990s">30</text>
-<text class="contribution-final" x="628" y="372" fill="#3fb950" style="animation-delay:22.530s">30</text>
+<text class="contribution-counter" x="628" y="372" fill="#3fb950" style="animation-delay:19.215s;animation-duration:3.350s">22</text>
+<text class="contribution-counter" x="628" y="372" fill="#3fb950" style="animation-delay:22.575s;animation-duration:0.990s">30</text>
+<text class="contribution-final" x="628" y="372" fill="#3fb950" style="animation-delay:22.585s">30</text>
 </g>
 
 <g
@@ -2268,6 +2268,9 @@ style="animation-delay:0.40s">
 <g class="graph-day"><title>0 contributions on September 17, 2026</title>
 <rect x="1298" y="537" width="10" height="10" rx="2" fill="#101418"><title>0 contributions on September 17, 2026</title></rect>
 </g>
+<g class="graph-day"><title>0 contributions on September 24, 2026</title>
+<rect x="1311" y="537" width="10" height="10" rx="2" fill="#101418"><title>0 contributions on September 24, 2026</title></rect>
+</g>
 <g class="graph-day"><title>0 contributions on September 26, 2025</title>
 <rect x="635" y="550" width="10" height="10" rx="2" fill="#101418"><title>0 contributions on September 26, 2025</title></rect>
 </g>
@@ -2417,7 +2420,7 @@ style="animation-delay:0.40s">
 </g>
 <g class="graph-day"><title>8 contributions on September 4, 2026</title>
 <rect x="1272" y="550" width="10" height="10" rx="2" fill="#101418"><title>8 contributions on September 4, 2026</title></rect>
-<rect class="graph-reveal" x="1272" y="550" width="10" height="10" rx="2" fill="#39d353" style="animation-delay:22.515s"><title>8 contributions on September 4, 2026</title></rect>
+<rect class="graph-reveal" x="1272" y="550" width="10" height="10" rx="2" fill="#39d353" style="animation-delay:22.570s"><title>8 contributions on September 4, 2026</title></rect>
 </g>
 <g class="graph-day"><title>0 contributions on September 11, 2026</title>
 <rect x="1285" y="550" width="10" height="10" rx="2" fill="#101418"><title>0 contributions on September 11, 2026</title></rect>
@@ -2845,110 +2848,111 @@ style="animation-delay:0.40s">
 <rect class="graph-scanner" x="1272" y="537" width="10" height="10" rx="2" style="animation-delay:19.155s;animation-duration:0.500s"/>
 <rect class="graph-scanner" x="1285" y="537" width="10" height="10" rx="2" style="animation-delay:19.710s;animation-duration:0.055s"/>
 <rect class="graph-scanner" x="1298" y="537" width="10" height="10" rx="2" style="animation-delay:19.765s;animation-duration:0.055s"/>
-<rect class="graph-scanner" x="635" y="550" width="10" height="10" rx="2" style="animation-delay:19.820s;animation-duration:0.055s"/>
-<rect class="graph-scanner" x="648" y="550" width="10" height="10" rx="2" style="animation-delay:19.875s;animation-duration:0.055s"/>
-<rect class="graph-scanner" x="661" y="550" width="10" height="10" rx="2" style="animation-delay:19.930s;animation-duration:0.055s"/>
-<rect class="graph-scanner" x="674" y="550" width="10" height="10" rx="2" style="animation-delay:19.985s;animation-duration:0.055s"/>
-<rect class="graph-scanner" x="687" y="550" width="10" height="10" rx="2" style="animation-delay:20.040s;animation-duration:0.055s"/>
-<rect class="graph-scanner" x="700" y="550" width="10" height="10" rx="2" style="animation-delay:20.095s;animation-duration:0.055s"/>
-<rect class="graph-scanner" x="713" y="550" width="10" height="10" rx="2" style="animation-delay:20.150s;animation-duration:0.055s"/>
-<rect class="graph-scanner" x="726" y="550" width="10" height="10" rx="2" style="animation-delay:20.205s;animation-duration:0.055s"/>
-<rect class="graph-scanner" x="739" y="550" width="10" height="10" rx="2" style="animation-delay:20.260s;animation-duration:0.055s"/>
-<rect class="graph-scanner" x="752" y="550" width="10" height="10" rx="2" style="animation-delay:20.315s;animation-duration:0.055s"/>
-<rect class="graph-scanner" x="765" y="550" width="10" height="10" rx="2" style="animation-delay:20.370s;animation-duration:0.055s"/>
-<rect class="graph-scanner" x="778" y="550" width="10" height="10" rx="2" style="animation-delay:20.425s;animation-duration:0.055s"/>
-<rect class="graph-scanner" x="791" y="550" width="10" height="10" rx="2" style="animation-delay:20.480s;animation-duration:0.055s"/>
-<rect class="graph-scanner" x="804" y="550" width="10" height="10" rx="2" style="animation-delay:20.535s;animation-duration:0.055s"/>
-<rect class="graph-scanner" x="817" y="550" width="10" height="10" rx="2" style="animation-delay:20.590s;animation-duration:0.055s"/>
-<rect class="graph-scanner" x="830" y="550" width="10" height="10" rx="2" style="animation-delay:20.645s;animation-duration:0.055s"/>
-<rect class="graph-scanner" x="843" y="550" width="10" height="10" rx="2" style="animation-delay:20.700s;animation-duration:0.055s"/>
-<rect class="graph-scanner" x="856" y="550" width="10" height="10" rx="2" style="animation-delay:20.755s;animation-duration:0.055s"/>
-<rect class="graph-scanner" x="869" y="550" width="10" height="10" rx="2" style="animation-delay:20.810s;animation-duration:0.055s"/>
-<rect class="graph-scanner" x="882" y="550" width="10" height="10" rx="2" style="animation-delay:20.865s;animation-duration:0.055s"/>
-<rect class="graph-scanner" x="895" y="550" width="10" height="10" rx="2" style="animation-delay:20.920s;animation-duration:0.055s"/>
-<rect class="graph-scanner" x="908" y="550" width="10" height="10" rx="2" style="animation-delay:20.975s;animation-duration:0.055s"/>
-<rect class="graph-scanner" x="921" y="550" width="10" height="10" rx="2" style="animation-delay:21.030s;animation-duration:0.055s"/>
-<rect class="graph-scanner" x="934" y="550" width="10" height="10" rx="2" style="animation-delay:21.085s;animation-duration:0.055s"/>
-<rect class="graph-scanner" x="947" y="550" width="10" height="10" rx="2" style="animation-delay:21.140s;animation-duration:0.055s"/>
-<rect class="graph-scanner" x="960" y="550" width="10" height="10" rx="2" style="animation-delay:21.195s;animation-duration:0.055s"/>
-<rect class="graph-scanner" x="973" y="550" width="10" height="10" rx="2" style="animation-delay:21.250s;animation-duration:0.055s"/>
-<rect class="graph-scanner" x="986" y="550" width="10" height="10" rx="2" style="animation-delay:21.305s;animation-duration:0.055s"/>
-<rect class="graph-scanner" x="999" y="550" width="10" height="10" rx="2" style="animation-delay:21.360s;animation-duration:0.055s"/>
-<rect class="graph-scanner" x="1012" y="550" width="10" height="10" rx="2" style="animation-delay:21.415s;animation-duration:0.055s"/>
-<rect class="graph-scanner" x="1025" y="550" width="10" height="10" rx="2" style="animation-delay:21.470s;animation-duration:0.055s"/>
-<rect class="graph-scanner" x="1038" y="550" width="10" height="10" rx="2" style="animation-delay:21.525s;animation-duration:0.055s"/>
-<rect class="graph-scanner" x="1051" y="550" width="10" height="10" rx="2" style="animation-delay:21.580s;animation-duration:0.055s"/>
-<rect class="graph-scanner" x="1064" y="550" width="10" height="10" rx="2" style="animation-delay:21.635s;animation-duration:0.055s"/>
-<rect class="graph-scanner" x="1077" y="550" width="10" height="10" rx="2" style="animation-delay:21.690s;animation-duration:0.055s"/>
-<rect class="graph-scanner" x="1090" y="550" width="10" height="10" rx="2" style="animation-delay:21.745s;animation-duration:0.055s"/>
-<rect class="graph-scanner" x="1103" y="550" width="10" height="10" rx="2" style="animation-delay:21.800s;animation-duration:0.055s"/>
-<rect class="graph-scanner" x="1116" y="550" width="10" height="10" rx="2" style="animation-delay:21.855s;animation-duration:0.055s"/>
-<rect class="graph-scanner" x="1129" y="550" width="10" height="10" rx="2" style="animation-delay:21.910s;animation-duration:0.055s"/>
-<rect class="graph-scanner" x="1142" y="550" width="10" height="10" rx="2" style="animation-delay:21.965s;animation-duration:0.055s"/>
-<rect class="graph-scanner" x="1155" y="550" width="10" height="10" rx="2" style="animation-delay:22.020s;animation-duration:0.055s"/>
-<rect class="graph-scanner" x="1168" y="550" width="10" height="10" rx="2" style="animation-delay:22.075s;animation-duration:0.055s"/>
-<rect class="graph-scanner" x="1181" y="550" width="10" height="10" rx="2" style="animation-delay:22.130s;animation-duration:0.055s"/>
-<rect class="graph-scanner" x="1194" y="550" width="10" height="10" rx="2" style="animation-delay:22.185s;animation-duration:0.055s"/>
-<rect class="graph-scanner" x="1207" y="550" width="10" height="10" rx="2" style="animation-delay:22.240s;animation-duration:0.055s"/>
-<rect class="graph-scanner" x="1220" y="550" width="10" height="10" rx="2" style="animation-delay:22.295s;animation-duration:0.055s"/>
-<rect class="graph-scanner" x="1233" y="550" width="10" height="10" rx="2" style="animation-delay:22.350s;animation-duration:0.055s"/>
-<rect class="graph-scanner" x="1246" y="550" width="10" height="10" rx="2" style="animation-delay:22.405s;animation-duration:0.055s"/>
-<rect class="graph-scanner" x="1259" y="550" width="10" height="10" rx="2" style="animation-delay:22.460s;animation-duration:0.055s"/>
-<rect class="graph-scanner" x="1272" y="550" width="10" height="10" rx="2" style="animation-delay:22.515s;animation-duration:0.500s"/>
-<rect class="graph-scanner" x="1285" y="550" width="10" height="10" rx="2" style="animation-delay:23.070s;animation-duration:0.055s"/>
-<rect class="graph-scanner" x="1298" y="550" width="10" height="10" rx="2" style="animation-delay:23.125s;animation-duration:0.055s"/>
-<rect class="graph-scanner" x="635" y="563" width="10" height="10" rx="2" style="animation-delay:23.180s;animation-duration:0.055s"/>
-<rect class="graph-scanner" x="648" y="563" width="10" height="10" rx="2" style="animation-delay:23.235s;animation-duration:0.055s"/>
-<rect class="graph-scanner" x="661" y="563" width="10" height="10" rx="2" style="animation-delay:23.290s;animation-duration:0.055s"/>
-<rect class="graph-scanner" x="674" y="563" width="10" height="10" rx="2" style="animation-delay:23.345s;animation-duration:0.055s"/>
-<rect class="graph-scanner" x="687" y="563" width="10" height="10" rx="2" style="animation-delay:23.400s;animation-duration:0.055s"/>
-<rect class="graph-scanner" x="700" y="563" width="10" height="10" rx="2" style="animation-delay:23.455s;animation-duration:0.055s"/>
-<rect class="graph-scanner" x="713" y="563" width="10" height="10" rx="2" style="animation-delay:23.510s;animation-duration:0.055s"/>
-<rect class="graph-scanner" x="726" y="563" width="10" height="10" rx="2" style="animation-delay:23.565s;animation-duration:0.055s"/>
-<rect class="graph-scanner" x="739" y="563" width="10" height="10" rx="2" style="animation-delay:23.620s;animation-duration:0.055s"/>
-<rect class="graph-scanner" x="752" y="563" width="10" height="10" rx="2" style="animation-delay:23.675s;animation-duration:0.055s"/>
-<rect class="graph-scanner" x="765" y="563" width="10" height="10" rx="2" style="animation-delay:23.730s;animation-duration:0.055s"/>
-<rect class="graph-scanner" x="778" y="563" width="10" height="10" rx="2" style="animation-delay:23.785s;animation-duration:0.055s"/>
-<rect class="graph-scanner" x="791" y="563" width="10" height="10" rx="2" style="animation-delay:23.840s;animation-duration:0.055s"/>
-<rect class="graph-scanner" x="804" y="563" width="10" height="10" rx="2" style="animation-delay:23.895s;animation-duration:0.055s"/>
-<rect class="graph-scanner" x="817" y="563" width="10" height="10" rx="2" style="animation-delay:23.950s;animation-duration:0.055s"/>
-<rect class="graph-scanner" x="830" y="563" width="10" height="10" rx="2" style="animation-delay:24.005s;animation-duration:0.055s"/>
-<rect class="graph-scanner" x="843" y="563" width="10" height="10" rx="2" style="animation-delay:24.060s;animation-duration:0.055s"/>
-<rect class="graph-scanner" x="856" y="563" width="10" height="10" rx="2" style="animation-delay:24.115s;animation-duration:0.055s"/>
-<rect class="graph-scanner" x="869" y="563" width="10" height="10" rx="2" style="animation-delay:24.170s;animation-duration:0.055s"/>
-<rect class="graph-scanner" x="882" y="563" width="10" height="10" rx="2" style="animation-delay:24.225s;animation-duration:0.055s"/>
-<rect class="graph-scanner" x="895" y="563" width="10" height="10" rx="2" style="animation-delay:24.280s;animation-duration:0.055s"/>
-<rect class="graph-scanner" x="908" y="563" width="10" height="10" rx="2" style="animation-delay:24.335s;animation-duration:0.055s"/>
-<rect class="graph-scanner" x="921" y="563" width="10" height="10" rx="2" style="animation-delay:24.390s;animation-duration:0.055s"/>
-<rect class="graph-scanner" x="934" y="563" width="10" height="10" rx="2" style="animation-delay:24.445s;animation-duration:0.055s"/>
-<rect class="graph-scanner" x="947" y="563" width="10" height="10" rx="2" style="animation-delay:24.500s;animation-duration:0.055s"/>
-<rect class="graph-scanner" x="960" y="563" width="10" height="10" rx="2" style="animation-delay:24.555s;animation-duration:0.055s"/>
-<rect class="graph-scanner" x="973" y="563" width="10" height="10" rx="2" style="animation-delay:24.610s;animation-duration:0.055s"/>
-<rect class="graph-scanner" x="986" y="563" width="10" height="10" rx="2" style="animation-delay:24.665s;animation-duration:0.055s"/>
-<rect class="graph-scanner" x="999" y="563" width="10" height="10" rx="2" style="animation-delay:24.720s;animation-duration:0.055s"/>
-<rect class="graph-scanner" x="1012" y="563" width="10" height="10" rx="2" style="animation-delay:24.775s;animation-duration:0.055s"/>
-<rect class="graph-scanner" x="1025" y="563" width="10" height="10" rx="2" style="animation-delay:24.830s;animation-duration:0.055s"/>
-<rect class="graph-scanner" x="1038" y="563" width="10" height="10" rx="2" style="animation-delay:24.885s;animation-duration:0.055s"/>
-<rect class="graph-scanner" x="1051" y="563" width="10" height="10" rx="2" style="animation-delay:24.940s;animation-duration:0.055s"/>
-<rect class="graph-scanner" x="1064" y="563" width="10" height="10" rx="2" style="animation-delay:24.995s;animation-duration:0.055s"/>
-<rect class="graph-scanner" x="1077" y="563" width="10" height="10" rx="2" style="animation-delay:25.050s;animation-duration:0.055s"/>
-<rect class="graph-scanner" x="1090" y="563" width="10" height="10" rx="2" style="animation-delay:25.105s;animation-duration:0.055s"/>
-<rect class="graph-scanner" x="1103" y="563" width="10" height="10" rx="2" style="animation-delay:25.160s;animation-duration:0.055s"/>
-<rect class="graph-scanner" x="1116" y="563" width="10" height="10" rx="2" style="animation-delay:25.215s;animation-duration:0.055s"/>
-<rect class="graph-scanner" x="1129" y="563" width="10" height="10" rx="2" style="animation-delay:25.270s;animation-duration:0.055s"/>
-<rect class="graph-scanner" x="1142" y="563" width="10" height="10" rx="2" style="animation-delay:25.325s;animation-duration:0.055s"/>
-<rect class="graph-scanner" x="1155" y="563" width="10" height="10" rx="2" style="animation-delay:25.380s;animation-duration:0.055s"/>
-<rect class="graph-scanner" x="1168" y="563" width="10" height="10" rx="2" style="animation-delay:25.435s;animation-duration:0.055s"/>
-<rect class="graph-scanner" x="1181" y="563" width="10" height="10" rx="2" style="animation-delay:25.490s;animation-duration:0.055s"/>
-<rect class="graph-scanner" x="1194" y="563" width="10" height="10" rx="2" style="animation-delay:25.545s;animation-duration:0.055s"/>
-<rect class="graph-scanner" x="1207" y="563" width="10" height="10" rx="2" style="animation-delay:25.600s;animation-duration:0.055s"/>
-<rect class="graph-scanner" x="1220" y="563" width="10" height="10" rx="2" style="animation-delay:25.655s;animation-duration:0.055s"/>
-<rect class="graph-scanner" x="1233" y="563" width="10" height="10" rx="2" style="animation-delay:25.710s;animation-duration:0.055s"/>
-<rect class="graph-scanner" x="1246" y="563" width="10" height="10" rx="2" style="animation-delay:25.765s;animation-duration:0.055s"/>
-<rect class="graph-scanner" x="1259" y="563" width="10" height="10" rx="2" style="animation-delay:25.820s;animation-duration:0.055s"/>
-<rect class="graph-scanner" x="1272" y="563" width="10" height="10" rx="2" style="animation-delay:25.875s;animation-duration:0.055s"/>
-<rect class="graph-scanner" x="1285" y="563" width="10" height="10" rx="2" style="animation-delay:25.930s;animation-duration:0.055s"/>
-<rect class="graph-scanner" x="1298" y="563" width="10" height="10" rx="2" style="animation-delay:25.985s;animation-duration:0.055s"/>
+<rect class="graph-scanner" x="1311" y="537" width="10" height="10" rx="2" style="animation-delay:19.820s;animation-duration:0.055s"/>
+<rect class="graph-scanner" x="635" y="550" width="10" height="10" rx="2" style="animation-delay:19.875s;animation-duration:0.055s"/>
+<rect class="graph-scanner" x="648" y="550" width="10" height="10" rx="2" style="animation-delay:19.930s;animation-duration:0.055s"/>
+<rect class="graph-scanner" x="661" y="550" width="10" height="10" rx="2" style="animation-delay:19.985s;animation-duration:0.055s"/>
+<rect class="graph-scanner" x="674" y="550" width="10" height="10" rx="2" style="animation-delay:20.040s;animation-duration:0.055s"/>
+<rect class="graph-scanner" x="687" y="550" width="10" height="10" rx="2" style="animation-delay:20.095s;animation-duration:0.055s"/>
+<rect class="graph-scanner" x="700" y="550" width="10" height="10" rx="2" style="animation-delay:20.150s;animation-duration:0.055s"/>
+<rect class="graph-scanner" x="713" y="550" width="10" height="10" rx="2" style="animation-delay:20.205s;animation-duration:0.055s"/>
+<rect class="graph-scanner" x="726" y="550" width="10" height="10" rx="2" style="animation-delay:20.260s;animation-duration:0.055s"/>
+<rect class="graph-scanner" x="739" y="550" width="10" height="10" rx="2" style="animation-delay:20.315s;animation-duration:0.055s"/>
+<rect class="graph-scanner" x="752" y="550" width="10" height="10" rx="2" style="animation-delay:20.370s;animation-duration:0.055s"/>
+<rect class="graph-scanner" x="765" y="550" width="10" height="10" rx="2" style="animation-delay:20.425s;animation-duration:0.055s"/>
+<rect class="graph-scanner" x="778" y="550" width="10" height="10" rx="2" style="animation-delay:20.480s;animation-duration:0.055s"/>
+<rect class="graph-scanner" x="791" y="550" width="10" height="10" rx="2" style="animation-delay:20.535s;animation-duration:0.055s"/>
+<rect class="graph-scanner" x="804" y="550" width="10" height="10" rx="2" style="animation-delay:20.590s;animation-duration:0.055s"/>
+<rect class="graph-scanner" x="817" y="550" width="10" height="10" rx="2" style="animation-delay:20.645s;animation-duration:0.055s"/>
+<rect class="graph-scanner" x="830" y="550" width="10" height="10" rx="2" style="animation-delay:20.700s;animation-duration:0.055s"/>
+<rect class="graph-scanner" x="843" y="550" width="10" height="10" rx="2" style="animation-delay:20.755s;animation-duration:0.055s"/>
+<rect class="graph-scanner" x="856" y="550" width="10" height="10" rx="2" style="animation-delay:20.810s;animation-duration:0.055s"/>
+<rect class="graph-scanner" x="869" y="550" width="10" height="10" rx="2" style="animation-delay:20.865s;animation-duration:0.055s"/>
+<rect class="graph-scanner" x="882" y="550" width="10" height="10" rx="2" style="animation-delay:20.920s;animation-duration:0.055s"/>
+<rect class="graph-scanner" x="895" y="550" width="10" height="10" rx="2" style="animation-delay:20.975s;animation-duration:0.055s"/>
+<rect class="graph-scanner" x="908" y="550" width="10" height="10" rx="2" style="animation-delay:21.030s;animation-duration:0.055s"/>
+<rect class="graph-scanner" x="921" y="550" width="10" height="10" rx="2" style="animation-delay:21.085s;animation-duration:0.055s"/>
+<rect class="graph-scanner" x="934" y="550" width="10" height="10" rx="2" style="animation-delay:21.140s;animation-duration:0.055s"/>
+<rect class="graph-scanner" x="947" y="550" width="10" height="10" rx="2" style="animation-delay:21.195s;animation-duration:0.055s"/>
+<rect class="graph-scanner" x="960" y="550" width="10" height="10" rx="2" style="animation-delay:21.250s;animation-duration:0.055s"/>
+<rect class="graph-scanner" x="973" y="550" width="10" height="10" rx="2" style="animation-delay:21.305s;animation-duration:0.055s"/>
+<rect class="graph-scanner" x="986" y="550" width="10" height="10" rx="2" style="animation-delay:21.360s;animation-duration:0.055s"/>
+<rect class="graph-scanner" x="999" y="550" width="10" height="10" rx="2" style="animation-delay:21.415s;animation-duration:0.055s"/>
+<rect class="graph-scanner" x="1012" y="550" width="10" height="10" rx="2" style="animation-delay:21.470s;animation-duration:0.055s"/>
+<rect class="graph-scanner" x="1025" y="550" width="10" height="10" rx="2" style="animation-delay:21.525s;animation-duration:0.055s"/>
+<rect class="graph-scanner" x="1038" y="550" width="10" height="10" rx="2" style="animation-delay:21.580s;animation-duration:0.055s"/>
+<rect class="graph-scanner" x="1051" y="550" width="10" height="10" rx="2" style="animation-delay:21.635s;animation-duration:0.055s"/>
+<rect class="graph-scanner" x="1064" y="550" width="10" height="10" rx="2" style="animation-delay:21.690s;animation-duration:0.055s"/>
+<rect class="graph-scanner" x="1077" y="550" width="10" height="10" rx="2" style="animation-delay:21.745s;animation-duration:0.055s"/>
+<rect class="graph-scanner" x="1090" y="550" width="10" height="10" rx="2" style="animation-delay:21.800s;animation-duration:0.055s"/>
+<rect class="graph-scanner" x="1103" y="550" width="10" height="10" rx="2" style="animation-delay:21.855s;animation-duration:0.055s"/>
+<rect class="graph-scanner" x="1116" y="550" width="10" height="10" rx="2" style="animation-delay:21.910s;animation-duration:0.055s"/>
+<rect class="graph-scanner" x="1129" y="550" width="10" height="10" rx="2" style="animation-delay:21.965s;animation-duration:0.055s"/>
+<rect class="graph-scanner" x="1142" y="550" width="10" height="10" rx="2" style="animation-delay:22.020s;animation-duration:0.055s"/>
+<rect class="graph-scanner" x="1155" y="550" width="10" height="10" rx="2" style="animation-delay:22.075s;animation-duration:0.055s"/>
+<rect class="graph-scanner" x="1168" y="550" width="10" height="10" rx="2" style="animation-delay:22.130s;animation-duration:0.055s"/>
+<rect class="graph-scanner" x="1181" y="550" width="10" height="10" rx="2" style="animation-delay:22.185s;animation-duration:0.055s"/>
+<rect class="graph-scanner" x="1194" y="550" width="10" height="10" rx="2" style="animation-delay:22.240s;animation-duration:0.055s"/>
+<rect class="graph-scanner" x="1207" y="550" width="10" height="10" rx="2" style="animation-delay:22.295s;animation-duration:0.055s"/>
+<rect class="graph-scanner" x="1220" y="550" width="10" height="10" rx="2" style="animation-delay:22.350s;animation-duration:0.055s"/>
+<rect class="graph-scanner" x="1233" y="550" width="10" height="10" rx="2" style="animation-delay:22.405s;animation-duration:0.055s"/>
+<rect class="graph-scanner" x="1246" y="550" width="10" height="10" rx="2" style="animation-delay:22.460s;animation-duration:0.055s"/>
+<rect class="graph-scanner" x="1259" y="550" width="10" height="10" rx="2" style="animation-delay:22.515s;animation-duration:0.055s"/>
+<rect class="graph-scanner" x="1272" y="550" width="10" height="10" rx="2" style="animation-delay:22.570s;animation-duration:0.500s"/>
+<rect class="graph-scanner" x="1285" y="550" width="10" height="10" rx="2" style="animation-delay:23.125s;animation-duration:0.055s"/>
+<rect class="graph-scanner" x="1298" y="550" width="10" height="10" rx="2" style="animation-delay:23.180s;animation-duration:0.055s"/>
+<rect class="graph-scanner" x="635" y="563" width="10" height="10" rx="2" style="animation-delay:23.235s;animation-duration:0.055s"/>
+<rect class="graph-scanner" x="648" y="563" width="10" height="10" rx="2" style="animation-delay:23.290s;animation-duration:0.055s"/>
+<rect class="graph-scanner" x="661" y="563" width="10" height="10" rx="2" style="animation-delay:23.345s;animation-duration:0.055s"/>
+<rect class="graph-scanner" x="674" y="563" width="10" height="10" rx="2" style="animation-delay:23.400s;animation-duration:0.055s"/>
+<rect class="graph-scanner" x="687" y="563" width="10" height="10" rx="2" style="animation-delay:23.455s;animation-duration:0.055s"/>
+<rect class="graph-scanner" x="700" y="563" width="10" height="10" rx="2" style="animation-delay:23.510s;animation-duration:0.055s"/>
+<rect class="graph-scanner" x="713" y="563" width="10" height="10" rx="2" style="animation-delay:23.565s;animation-duration:0.055s"/>
+<rect class="graph-scanner" x="726" y="563" width="10" height="10" rx="2" style="animation-delay:23.620s;animation-duration:0.055s"/>
+<rect class="graph-scanner" x="739" y="563" width="10" height="10" rx="2" style="animation-delay:23.675s;animation-duration:0.055s"/>
+<rect class="graph-scanner" x="752" y="563" width="10" height="10" rx="2" style="animation-delay:23.730s;animation-duration:0.055s"/>
+<rect class="graph-scanner" x="765" y="563" width="10" height="10" rx="2" style="animation-delay:23.785s;animation-duration:0.055s"/>
+<rect class="graph-scanner" x="778" y="563" width="10" height="10" rx="2" style="animation-delay:23.840s;animation-duration:0.055s"/>
+<rect class="graph-scanner" x="791" y="563" width="10" height="10" rx="2" style="animation-delay:23.895s;animation-duration:0.055s"/>
+<rect class="graph-scanner" x="804" y="563" width="10" height="10" rx="2" style="animation-delay:23.950s;animation-duration:0.055s"/>
+<rect class="graph-scanner" x="817" y="563" width="10" height="10" rx="2" style="animation-delay:24.005s;animation-duration:0.055s"/>
+<rect class="graph-scanner" x="830" y="563" width="10" height="10" rx="2" style="animation-delay:24.060s;animation-duration:0.055s"/>
+<rect class="graph-scanner" x="843" y="563" width="10" height="10" rx="2" style="animation-delay:24.115s;animation-duration:0.055s"/>
+<rect class="graph-scanner" x="856" y="563" width="10" height="10" rx="2" style="animation-delay:24.170s;animation-duration:0.055s"/>
+<rect class="graph-scanner" x="869" y="563" width="10" height="10" rx="2" style="animation-delay:24.225s;animation-duration:0.055s"/>
+<rect class="graph-scanner" x="882" y="563" width="10" height="10" rx="2" style="animation-delay:24.280s;animation-duration:0.055s"/>
+<rect class="graph-scanner" x="895" y="563" width="10" height="10" rx="2" style="animation-delay:24.335s;animation-duration:0.055s"/>
+<rect class="graph-scanner" x="908" y="563" width="10" height="10" rx="2" style="animation-delay:24.390s;animation-duration:0.055s"/>
+<rect class="graph-scanner" x="921" y="563" width="10" height="10" rx="2" style="animation-delay:24.445s;animation-duration:0.055s"/>
+<rect class="graph-scanner" x="934" y="563" width="10" height="10" rx="2" style="animation-delay:24.500s;animation-duration:0.055s"/>
+<rect class="graph-scanner" x="947" y="563" width="10" height="10" rx="2" style="animation-delay:24.555s;animation-duration:0.055s"/>
+<rect class="graph-scanner" x="960" y="563" width="10" height="10" rx="2" style="animation-delay:24.610s;animation-duration:0.055s"/>
+<rect class="graph-scanner" x="973" y="563" width="10" height="10" rx="2" style="animation-delay:24.665s;animation-duration:0.055s"/>
+<rect class="graph-scanner" x="986" y="563" width="10" height="10" rx="2" style="animation-delay:24.720s;animation-duration:0.055s"/>
+<rect class="graph-scanner" x="999" y="563" width="10" height="10" rx="2" style="animation-delay:24.775s;animation-duration:0.055s"/>
+<rect class="graph-scanner" x="1012" y="563" width="10" height="10" rx="2" style="animation-delay:24.830s;animation-duration:0.055s"/>
+<rect class="graph-scanner" x="1025" y="563" width="10" height="10" rx="2" style="animation-delay:24.885s;animation-duration:0.055s"/>
+<rect class="graph-scanner" x="1038" y="563" width="10" height="10" rx="2" style="animation-delay:24.940s;animation-duration:0.055s"/>
+<rect class="graph-scanner" x="1051" y="563" width="10" height="10" rx="2" style="animation-delay:24.995s;animation-duration:0.055s"/>
+<rect class="graph-scanner" x="1064" y="563" width="10" height="10" rx="2" style="animation-delay:25.050s;animation-duration:0.055s"/>
+<rect class="graph-scanner" x="1077" y="563" width="10" height="10" rx="2" style="animation-delay:25.105s;animation-duration:0.055s"/>
+<rect class="graph-scanner" x="1090" y="563" width="10" height="10" rx="2" style="animation-delay:25.160s;animation-duration:0.055s"/>
+<rect class="graph-scanner" x="1103" y="563" width="10" height="10" rx="2" style="animation-delay:25.215s;animation-duration:0.055s"/>
+<rect class="graph-scanner" x="1116" y="563" width="10" height="10" rx="2" style="animation-delay:25.270s;animation-duration:0.055s"/>
+<rect class="graph-scanner" x="1129" y="563" width="10" height="10" rx="2" style="animation-delay:25.325s;animation-duration:0.055s"/>
+<rect class="graph-scanner" x="1142" y="563" width="10" height="10" rx="2" style="animation-delay:25.380s;animation-duration:0.055s"/>
+<rect class="graph-scanner" x="1155" y="563" width="10" height="10" rx="2" style="animation-delay:25.435s;animation-duration:0.055s"/>
+<rect class="graph-scanner" x="1168" y="563" width="10" height="10" rx="2" style="animation-delay:25.490s;animation-duration:0.055s"/>
+<rect class="graph-scanner" x="1181" y="563" width="10" height="10" rx="2" style="animation-delay:25.545s;animation-duration:0.055s"/>
+<rect class="graph-scanner" x="1194" y="563" width="10" height="10" rx="2" style="animation-delay:25.600s;animation-duration:0.055s"/>
+<rect class="graph-scanner" x="1207" y="563" width="10" height="10" rx="2" style="animation-delay:25.655s;animation-duration:0.055s"/>
+<rect class="graph-scanner" x="1220" y="563" width="10" height="10" rx="2" style="animation-delay:25.710s;animation-duration:0.055s"/>
+<rect class="graph-scanner" x="1233" y="563" width="10" height="10" rx="2" style="animation-delay:25.765s;animation-duration:0.055s"/>
+<rect class="graph-scanner" x="1246" y="563" width="10" height="10" rx="2" style="animation-delay:25.820s;animation-duration:0.055s"/>
+<rect class="graph-scanner" x="1259" y="563" width="10" height="10" rx="2" style="animation-delay:25.875s;animation-duration:0.055s"/>
+<rect class="graph-scanner" x="1272" y="563" width="10" height="10" rx="2" style="animation-delay:25.930s;animation-duration:0.055s"/>
+<rect class="graph-scanner" x="1285" y="563" width="10" height="10" rx="2" style="animation-delay:25.985s;animation-duration:0.055s"/>
+<rect class="graph-scanner" x="1298" y="563" width="10" height="10" rx="2" style="animation-delay:26.040s;animation-duration:0.055s"/>
 <text x="635" y="625" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="12px" font-weight="400" fill="#8b949e" text-anchor="start">Current streak: 0 days</text>
 <text x="870" y="625" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="12px" font-weight="400" fill="#8b949e" text-anchor="start">Longest: 2 days</text>
 <text x="1090" y="625" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="12px" font-weight="400" fill="#8b949e" text-anchor="start">Repositories: 11</text>
