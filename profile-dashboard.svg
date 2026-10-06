@@ -1358,7 +1358,7 @@ font-weight="400"
 fill="#3fb950"
 text-anchor="start"
 class="runtime-text"
-style="animation-delay:0.68s">[OK] activity stream :: 5 events</text>
+style="animation-delay:0.68s">[OK] activity stream :: 4 events</text>
 
 
 <text
@@ -3353,7 +3353,6 @@ style="animation-delay:0.60s">
 <text x="1225" y="793" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10px" font-weight="400" fill="#c9d1d9" text-anchor="start">• PushEvent: Aditya-oss-glitch/Adi...</text>
 <text x="1225" y="816" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10px" font-weight="400" fill="#c9d1d9" text-anchor="start">• PushEvent: Aditya-oss-glitch/Adi...</text>
 <text x="1225" y="839" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10px" font-weight="400" fill="#c9d1d9" text-anchor="start">• PushEvent: Aditya-oss-glitch/Adi...</text>
-<text x="1225" y="862" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10px" font-weight="400" fill="#c9d1d9" text-anchor="start">• PushEvent: Aditya-oss-glitch/Adi...</text>
 </g>
 
 <g
