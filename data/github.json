@@ -1,6 +1,6 @@
 {
   "username": "Aditya-oss-glitch",
-  "generated_at": "2026-11-20T08:10:05.841810+00:00",
+  "generated_at": "2026-11-20T17:37:00.797538+00:00",
   "profile": {
     "name": "Aditya Rai",
     "bio": "Aspiring full-stack developer passionate about Python, Java, and C++. Building real-world projects like RoadRescue360. Exploring AI/ML, app dev, and open source",
@@ -17,7 +17,18 @@
     "Java": 1,
     "JavaScript": 1
   },
-  "activity": [],
+  "activity": [
+    {
+      "type": "MemberEvent",
+      "repository": "i-lakshyatripathi/G011-MP277",
+      "date": "2026-11-20T15:32:44Z"
+    },
+    {
+      "type": "MemberEvent",
+      "repository": "Aadi-07-jangir/G011-MP277",
+      "date": "2026-11-20T14:32:48Z"
+    }
+  ],
   "contributions": {
     "days": [
       {
@@ -1881,7 +1892,7 @@
       "username": "FwSJ9mrfqJ",
       "solved": 52,
       "rating": null,
-      "rank": 2745606
+      "rank": 2746572
     },
     "codeforces": {
       "username": "code1101master",
